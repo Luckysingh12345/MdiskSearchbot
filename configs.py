@@ -5,18 +5,18 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "133273016"))
-    API_HASH = os.getenv("API_HASH", "68e791e61610028748b0a53ae86a661a12")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5912048119:AAHrcUjE38mYG3noFRw5B5GQosaSJ6Fa7-x1s")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "lazydeveloperr")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKkBu09s73VLGQQnQZp81QLu_hvbfV9yEuhmccZdjyWtbbXB-m2ujGrZ8HY9RymfBfBDrrZqChCCLSXWhZ54D8FCVpkiAO1GI-c85ZDExvGUu_3g-QdoqL7Kf-K6tK4I-u8CmeNmQKXLO-jPS89BphFytogqFKYCNvv7Kw2WOlbcEzsijo5xFYFWmVsccKPGdgGL9xvWTB-51uH36joGzuBnT6TGMftMGmUK5DQQF5i6Lk2_0EknKBN5Q3YpP_JNiOl9PntcvYHPUkgecupU2m5DKi5TMwHgI5ohFMezIrHH0NNG63AHYf35UGSienCWbwG8Csn8VceLQMnXrKZcRbIy-McIY=")
-#   Channel id where your posts are stored.
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-100180838783308")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "lazydeveloperr")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "LazyDeveloper")
-#    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
+    API_ID = int(os.getenv("API_ID", "20475714"))
+    API_HASH = os.getenv("API_HASH", "a3d6d3f2a3d9677d3a581f7364989f4c")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5779331068:AAHvlT5mu5hBAu5M4JbRSsVpXWtiufGp7Lg")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksearchbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING",")
+#   Channel id where your posts are stored. "
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001804161143")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Mdisk_robot_search_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5747888765"))
+#   OWNER_USERNAME = os.getenv("OWNER_USERNAME", "luckysingh2006")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "newmoviesandwebserieschannel2")
+#    GROUP_USERNAME = os.getenv("Newmoviesandwebseriesdiscussion2")
     START_MSG = os.getenv("START_MSG", """**Hello {}, 
 
 I am a simple Movie Search BOT.
@@ -24,21 +24,21 @@ I am a simple Movie Search BOT.
 I can give movie links containing mDisk links.
 
 Just Type Movie name in pm or group 🦋**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/cac226e80f3426b1033a5.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001765107260")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://lazy:lazy@lzyxdev786.lpvunddl5.mongodb.net/eieokxk?redddltryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001782419622"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001759902963")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Luckysingh:lucky847428@cluster0.g7zg8gv.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001859282053"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "LazyDeveloper")
-    FORCE_SUB = os.getenv("FORCE_SUB", "True")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 120))
-    MDISK_API = os.getenv("MDISK_API", "W4VnYiwHUevmAutlFmkW")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "indianmovies288")
+    FORCE_SUB = os.getenv("FORCE_SUB", "false")
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 3600))
+    MDISK_API = os.getenv("MDISK_API", "SNIVQ88GcUltKNAUd9YQ")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
@@ -46,7 +46,7 @@ Just Type Movie name in pm or group 🦋**""" )
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ  <a href='https://t.me/LazyDeveloperr'>LazyDeveloperr</a> 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ  <a href='https://t.me/luckysingh2006'>Luckysingh</a> 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -55,7 +55,7 @@ i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅ
 
 ᴛᴇʀᴀ ʙᴏx - ᴀɢᴀʀ ᴀᴘᴘᴋᴏ ɴᴀʜɪ ᴘᴀᴛᴀ ᴋɪ ᴛᴇʀᴀʙᴏx sᴇ ᴍᴏᴠɪᴇs ᴋᴀɪsᴇ ᴅᴇᴋʜᴇ ᴛᴏ ɴɪᴄʜᴇ ᴅɪʏᴇ ɢᴀʏᴇ ᴛᴇʀᴀ ʙᴏx ʙᴜᴛᴛᴏɴ ᴘᴀʀ ᴄʟɪᴄᴋ ᴋᴀʀᴇ
 
-ʀᴇɢᴀʀᴅs - <a href='https://t.me/LazyDeveloperr'>LazyDeveloperr</a>"""
+ʀᴇɢᴀʀᴅs - <a href='https://t.me/luckysingh2006'>Luckysingh</a>"""
     ABOUT_MDISK_TEXT = """
 𝗠𝗱𝗶𝘀𝗸 𝗸𝗶 𝗹𝗶𝗻𝗸𝘀 𝗢𝗽𝗲𝗻 𝗔𝗶𝘀𝗲 𝗞𝗮𝗿𝗲👇🔥
 वीडियो प्ले करने में कोई प्रोब्लम अ रही हो तो Mx Player App डाउनलोड करले😊👍
@@ -108,7 +108,7 @@ https://terabox.com/
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 <a href='https://t.me/LazyDeveloperr'>LazyDeveloperr</a>
+👉 <a href='https://t.me/luckysingh2006'>Luckysingh</a>
 
 """
 
