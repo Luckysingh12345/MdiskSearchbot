@@ -9,7 +9,7 @@ class Config(object):
     API_HASH = os.getenv("API_HASH", "a3d6d3f2a3d9677d3a581f7364989f4c")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5779331068:AAHvlT5mu5hBAu5M4JbRSsVpXWtiufGp7Lg")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksearchbot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING","1BVtsOKkBu1Wz8dyV6_seAGaUFhW37yAkq4IdvYqtEc6SRcLU5DsAQ6wQOmudsQVMfaZ1D6kv2mqYXZ2Tkf0569eSUAKIubOHn364V6ChZ0YN1LQMX8REi6TrYeKlorYJda1zYTIhk3OqKQsjPot0WmPQAuamGTl7SEC4FZ7JaB7QgsyxjlalIrwGCj5NFaLZ-HsTyVq5SX6bVcN2dhYzZ2TlPVysFAU4ySIL3HmQSBri5vpzfPuOZQfeUhCSzQTggt_Etw5fglH79YCBVjTJDIx0p36QmADYhYiHqVbrbQWHL_99TuoEV955ZDl6W8XQZ6ytoVnAJ6ZrDVrY1oW1JEYx7YTuxjY=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING","")
 #   Channel id where your posts are stored. "
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001804161143")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Mdisk_robot_search_bot")
